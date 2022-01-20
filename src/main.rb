@@ -9,7 +9,7 @@ puts funcao_pronta # "Ok"
 #
 # Examplo:
 
-puts 'Exercício 1'
+# Exercício 1
 puts capitalize('a short sentence') # "A Short Sentence"
 puts capitalize('a lazy fox') # "A Lazy Fox"
 puts capitalize('look, it is working!') # "Look, It Is Working!"
@@ -23,7 +23,7 @@ puts capitalize('look, it is working!') # "Look, It Is Working!"
 #
 # Examplo:
 
-puts 'Exercício 2'
+# Exercício 2
 puts longest_word('Hello there') # "Hello"
 puts longest_word('My name is Adam') # "name"
 puts longest_word('fun&!! time') # "time"
@@ -32,7 +32,7 @@ puts longest_word('fun&!! time') # "time"
 #
 # Exemplo:
 
-puts 'Exercício 3'
+# Exercício 3
 puts achar_posicao('Lambada', 'a') # 1
 puts achar_posicao('Lambada', 'd') # 5
 puts achar_posicao('fusca', 'f') # 0
@@ -42,7 +42,7 @@ puts achar_posicao('aAaA', 'A') # 1
 #
 # Exemplo
 #
-puts 'Exercício 4'
+# Exercício 4
 puts quem_eh_maior(10, 1) # "Número [10] é maior do que número [1]"
 puts quem_eh_maior(-10, 1) # "Número [-10] é menor do que número [1]"
 puts quem_eh_maior(0, 0) # "Empate!"
@@ -99,16 +99,10 @@ hash = {
 # 8.3) um hash invertido, trocar chave por valor e valor por chave
 # 8.4) um hash com os estados do Sul
 
-#########################################################################################
 
-def funcao_pronta
-  'Ok'
-end
+# 9. Imprimir de 1 a 100, substituindo múltiplos de 3 por "ping",
+# múltiplos de 5 por "pong" e múltiplos de 5 e 3 por "ping pong".
 
-def capitalize(_str)
-  nil
-end
 
-def longest_word(_str)
-  nil
-end
+# 10. Qual é o comando para criar um projeto Rails API utilizando o banco de dados Postgresql
+# pritar o comando
