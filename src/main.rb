@@ -53,7 +53,7 @@ puts quem_eh_maior(0, 0) # "Empate!"
 #  "YYYY-MM-DD HH:mm:ss"
 #  "DD/MM/YYYY"
 #
-#  5.2 - Pegar o primeiro dia e o último dia do mês corrente
+#  5.2 - Retornar o dia da semana. Ex: dom, seg, ter, ...
 #
 
 # 5.1
@@ -63,7 +63,7 @@ puts data_atual_formatada('dd/MM/YYYY')
 
 # 5.2
 puts 'Exercício 5.2'
-primeiro_e_ultimo_dia_do_mes
+puts dia_da_semana
 
 # 6 - Exercícios de programação orientada a objeto
 #
@@ -101,7 +101,7 @@ hash = {
 
 
 # 9. Imprimir de 1 a 100, substituindo múltiplos de 3 por "ping",
-# múltiplos de 5 por "pong" e múltiplos de 5 e 3 por "ping pong".
+# múltiplos de 5 por "pong" e múltiplos de 5 e 3 por "pong ping".
 
 
 # 10. Qual é o comando para criar um projeto Rails API utilizando o banco de dados Postgresql

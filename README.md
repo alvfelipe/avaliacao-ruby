@@ -15,6 +15,4 @@ O arquivo pode ser encontrado em: *src/main.rb*
 
 Após estes passos, agendaremos uma reunião para dar um feedback sobre os exercícios corrigidos.
 
-> **Dica:** O Google é o seu melhor amigo.
-
 Aguardamos seu commit! [![Ruby](https://cdn.emojidex.com/emoji/px16/Ruby.png "Ruby") ](https://www.ruby-lang.org)
