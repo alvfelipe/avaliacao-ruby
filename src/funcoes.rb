@@ -144,5 +144,5 @@ end
 
 # EXERCÍCIO 10
 def comando_bd
-  puts 'rails db:create'
+  puts 'Comando: rails db:create'
 end
