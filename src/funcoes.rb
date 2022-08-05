@@ -1,4 +1,5 @@
 
+
 def funcao_pronta
   'Ok'
 end
@@ -26,4 +27,19 @@ def quem_eh_maior(n1, n2)
   else
     "Empate"
   end
+end
+
+def data_atual_formatada1
+  time = Time.now
+  time.strftime("%Y-%m-%d %H:%M:%S")
+end
+
+def data_atual_formatada2
+  time = Time.now
+  time.strftime("%d/%m/%Y")
+end
+
+def dia_da_semana
+  time = Time.now
+  time.strftime("%a")
 end
