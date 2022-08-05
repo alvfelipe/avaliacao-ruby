@@ -101,5 +101,13 @@ def quantidade_valores(hash)
 end
 
 # EXERCÍCIO 8.3
+def hash_invertido(hash)
+  hash.each do |key, value|
+    a = key
+    key = value
+    value = a
+    puts "A chave do hash é #{key} e o valor é #{value}"
+  end
+end
 
 # EXERCÍCIO 8.4
