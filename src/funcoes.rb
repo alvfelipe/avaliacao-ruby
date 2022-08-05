@@ -18,8 +18,10 @@ end
 # EXERCÍCIO 2
 def longest_word(_str)
   spec = ["!", "@", "#", "$", "%", "&", "*", "(", ")"]
-  a = _str.split().max_by(&:length)
-  a.delete(spec.to_s)
+  a = _str.delete("!")
+  b = a.delete("&")
+  b.split().max_by(&:length)
+  
 end
 
 # EXERCÍCIO 3
