@@ -90,7 +90,16 @@ def array_cinco_vezes_maior(array)
   puts "Array 5 vezes maior: #{(array * 5).join(" - ")}"
 end
 
-# EXERCÍCIO 8
+# EXERCÍCIO 8.1
 def quantidade_chaves(hash)
   puts "Quantidade de chaves: #{hash.keys.count}"
 end
+
+# EXERCÍCIO 8.2
+def quantidade_valores(hash)
+  puts "Quantidade de valores: #{hash.values.count}"
+end
+
+# EXERCÍCIO 8.3
+
+# EXERCÍCIO 8.4
