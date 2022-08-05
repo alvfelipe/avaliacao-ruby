@@ -60,3 +60,15 @@ def array_ordenado_decrescentemente(array)
   x = (array.sort).reverse
   x.join(" - ")
 end
+
+def array_com_valores_inteiros(array)
+  puts 'Valores inteiros: '
+  x = array.map(&:to_i)
+  puts x.join(" - ")
+
+  puts 'Teste para ver se são inteiros: '
+  y = x.map do |num|
+    num * 2
+  end
+  puts y.join(" - ")
+end
