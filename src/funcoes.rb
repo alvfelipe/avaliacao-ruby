@@ -43,3 +43,4 @@ def dia_da_semana
   time = Time.now
   time.strftime("%a")
 end
+
