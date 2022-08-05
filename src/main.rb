@@ -113,6 +113,7 @@ hash = {
 
 # Criar funções que receba o hash e retorne:
 # 8.1) quantidade de chaves (keys)
+puts quantidade_chaves(hash)
 # 8.2) quantidade de valores (values)
 # 8.3) um hash invertido, trocar chave por valor e valor por chave
 # 8.4) um hash com os estados do Sul

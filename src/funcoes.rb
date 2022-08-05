@@ -80,10 +80,17 @@ def array_com_valores_inteiros(array)
   puts "Teste para ver se são inteiros: #{y.join(" - ")}"
 end
 
+# EXERCÍCIO 7.3
 def array_tamanho(array)
   puts "Tamanho do array: #{array.size}"
 end
 
+# EXERCÍCIO 7.4
 def array_cinco_vezes_maior(array)
   puts "Array 5 vezes maior: #{(array * 5).join(" - ")}"
+end
+
+# EXERCÍCIO 8
+def quantidade_chaves(hash)
+  puts "Quantidade de chaves: #{hash.keys.count}"
 end
