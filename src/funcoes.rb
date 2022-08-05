@@ -111,3 +111,11 @@ def hash_invertido(hash)
 end
 
 # EXERCÍCIO 8.4
+def hash_sul
+  puts ''
+  hash_sul = {
+    'PR' => 'Paraná',
+    'SC' => 'Santa Catarina',
+    'RS' => 'Rio Grande do Sul'
+  }
+end

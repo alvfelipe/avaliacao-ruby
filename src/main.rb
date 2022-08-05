@@ -119,6 +119,7 @@ puts quantidade_valores(hash)
 # 8.3) um hash invertido, trocar chave por valor e valor por chave
 hash_invertido(hash)
 # 8.4) um hash com os estados do Sul
+puts hash_sul
 
 puts "\nExercício 9 - imprimir de 1 a 100"
 # 9. Imprimir de 1 a 100, substituindo múltiplos de 3 por "ping",
