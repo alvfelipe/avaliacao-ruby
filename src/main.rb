@@ -129,3 +129,4 @@ puts imprimir_1_a_100
 puts "\nExercício 10 - bd postgreesql"
 # 10. Qual é o comando para criar um projeto Rails API utilizando o banco de dados Postgresql
 # pritar o comando
+puts comando_bd

@@ -141,3 +141,8 @@ def imprimir_1_a_100
     
   end
 end
+
+# EXERCÍCIO 10
+def comando_bd
+  puts 'rails db:create'
+end
