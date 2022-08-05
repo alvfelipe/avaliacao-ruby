@@ -119,3 +119,23 @@ def hash_sul
     'RS' => 'Rio Grande do Sul'
   }
 end
+
+# EXERCÍCIO 9
+def imprimir_1_a_100
+  x = 0
+
+  while x < 100
+    x += 1
+
+   if x % 3 == 0 && x % 5 != 00
+    puts "ping"
+   elsif x % 5 == 0 && x % 3 != 00
+    puts "pong"
+   elsif x % 3 == 0 && x % 5 == 0
+    puts "pong ping"
+   else
+    puts x
+   end
+    
+  end
+end

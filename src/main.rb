@@ -124,6 +124,7 @@ puts hash_sul
 puts "\nExercício 9 - imprimir de 1 a 100"
 # 9. Imprimir de 1 a 100, substituindo múltiplos de 3 por "ping",
 # múltiplos de 5 por "pong" e múltiplos de 5 e 3 por "pong ping".
+puts imprimir_1_a_100
 
 puts "\nExercício 10 - bd postgreesql"
 # 10. Qual é o comando para criar um projeto Rails API utilizando o banco de dados Postgresql
