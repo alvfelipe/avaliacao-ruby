@@ -49,19 +49,22 @@ puts quem_eh_maior(0, 0) # "Empate!"
 
 #  5 - Exercícios com data
 #
-#  5.1 - Pegar hora do sistema e retornar nos seguintes formatos:
-#  "YYYY-MM-DD HH:mm:ss"
-#  "DD/MM/YYYY"
+#  5.1 - Pegar hora do sistema e retornar no "YYYY-MM-DD HH:mm:ss"
 #
-#  5.2 - Retornar o dia da semana. Ex: dom, seg, ter, ...
+#  5.2 - Pegar hora do sistema e retornar no "DD/MM/YYYY"
+#
+#  5.3 - Retornar o dia da semana. Ex: dom, seg, ter, ...
 #
 
 # 5.1
 puts 'Exercício 5.1'
-puts data_atual_formatada('YYYY-MM-dd HH:mm:ss')
-puts data_atual_formatada('dd/MM/YYYY')
+puts data_atual_formatada1
 
 # 5.2
+puts 'Exercício 5.1'
+puts data_atual_formatada2
+
+# 5.3
 puts 'Exercício 5.2'
 puts dia_da_semana
 
