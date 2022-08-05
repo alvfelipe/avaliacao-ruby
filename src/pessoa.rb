@@ -9,6 +9,7 @@ class Pessoa
 
     def nomeCompleto
         puts "Nome: #{@nome} #{@sobrenome}"
+        puts "Idade: #{@idade}"
     end
 
     def imc

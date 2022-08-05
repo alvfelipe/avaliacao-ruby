@@ -82,7 +82,8 @@ puts "\nExercício 6 - poo"
 # 1) Criar as classes de acordo com o diagrama na imagem "diagrama-de-classes.png".
 # 2) Instanciar um objeto da classe Pessoa, preechendo os atributos e chamando os métodos.
 # 3) Instanciar dois objetos da classe Cachorro e associar ao objeto da classe Pessoa.
-#
+
+puts pessoa
 
 puts "\nExercício 7 - array"
 # 7 - Exercício com Array
