@@ -1,4 +1,5 @@
-
+require_relative 'pessoa.rb'
+require_relative 'cachorro.rb'
 
 def funcao_pronta
   'Ok'
