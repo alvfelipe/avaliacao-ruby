@@ -13,3 +13,7 @@ end
 def longest_word(_str)
   nil
 end
+
+def achar_posicao(text, char)
+  text.index(char)
+end
