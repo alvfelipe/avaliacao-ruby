@@ -84,6 +84,7 @@ puts "\nExercício 6 - poo"
 # 3) Instanciar dois objetos da classe Cachorro e associar ao objeto da classe Pessoa.
 
 puts pessoa
+puts cachorro
 
 puts "\nExercício 7 - array"
 # 7 - Exercício com Array

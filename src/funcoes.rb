@@ -50,3 +50,8 @@ def pessoa
   pessoa.nomeCompleto
   pessoa.imc
 end
+
+def cachorro
+  cachorro = Cachorro.new('Rex', 5)
+  cachorro.late
+end
