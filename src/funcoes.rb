@@ -4,9 +4,12 @@ def funcao_pronta
 end
 
 def capitalize(_str)
-  nil
+  text = _str.split().map do |x|
+    x.capitalize
+  end
+  
 end
 
 def longest_word(_str)
-  nil
+  
 end

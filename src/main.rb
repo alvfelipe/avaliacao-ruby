@@ -1,3 +1,4 @@
+require_relative 'funcoes.rb'
 
 # Todos os exercícios devem printar o resultado no console igual ao exemplo abaixo:
 puts funcao_pronta # "Ok"
