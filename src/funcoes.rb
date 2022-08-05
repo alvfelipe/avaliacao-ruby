@@ -5,6 +5,7 @@ def funcao_pronta
   'Ok'
 end
 
+# EXERCÍCIO 1
 def capitalize(_str)
   text = _str.split().map do |x|
     x.capitalize
@@ -12,14 +13,17 @@ def capitalize(_str)
   text.join(" ")
 end
 
+# EXERCÍCIO 2
 def longest_word(_str)
   nil
 end
 
+# EXERCÍCIO 3
 def achar_posicao(text, char)
   text.index(char)
 end
 
+# EXERCÍCIO 4
 def quem_eh_maior(n1, n2)
   if n1 > n2
     "Número #{n1} é maior do que o número #{n2}"
@@ -30,6 +34,7 @@ def quem_eh_maior(n1, n2)
   end
 end
 
+# EXERCÍCIO 5.1
 def data_atual_formatada1
   time = Time.now
   time.strftime("%Y-%m-%d %H:%M:%S")
@@ -40,11 +45,13 @@ def data_atual_formatada2
   time.strftime("%d/%m/%Y")
 end
 
+# EXERCÍCIO 5.2
 def dia_da_semana
   time = Time.now
   time.strftime("%a")
 end
 
+# EXERCÍCIO 6
 def pessoa
   pessoa = Pessoa.new('Felipe', 'Silva', 18, 52, 1.72)
   pessoa.nomeCompleto
@@ -56,11 +63,13 @@ def cachorro
   cachorro.late
 end
 
+# EXERCÍCIO 7.1
 def array_ordenado_decrescentemente(array)
   x = (array.sort).reverse
   x.join(" - ")
 end
 
+# EXERCÍCIO 7.2
 def array_com_valores_inteiros(array)
   puts 'Valores inteiros: '
   x = array.map(&:to_i)
@@ -72,3 +81,4 @@ def array_com_valores_inteiros(array)
   end
   puts y.join(" - ")
 end
+

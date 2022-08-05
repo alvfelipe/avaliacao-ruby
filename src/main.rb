@@ -97,6 +97,7 @@ puts array_ordenado_decrescentemente(array)
 # 2) array com valores inteiros
 puts array_com_valores_inteiros(array)
 # 3) tamanho do array
+puts array_tamanho(array)
 # 4) array 5 vezes maior (5 x array)
 
 puts "\nExercício 8 - hash"
