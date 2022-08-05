@@ -55,3 +55,8 @@ def cachorro
   cachorro = Cachorro.new('Rex', 5)
   cachorro.late
 end
+
+def array_ordenado_decrescentemente(array)
+  x = (array.sort).reverse
+  x.join(" - ")
+end

@@ -93,6 +93,7 @@ array = ['9', '1', '3', '7', '5']
 
 # Criar funções que receba o array e retorne:
 # 1) array ordenado decrescentemente
+puts array_ordenado_decrescentemente(array)
 # 2) array com valores inteiros
 # 3) tamanho do array
 # 4) array 5 vezes maior (5 x array)
