@@ -8,10 +8,10 @@ class Pessoa
     end
 
     def nomeCompleto
-        
+        puts "Nome: #{@nome} #{@sobrenome}"
     end
 
     def imc
-        
+        puts "IMC: #{@peso / (altura * altura)}"
     end
 end
