@@ -12,6 +12,6 @@ class Pessoa
     end
 
     def imc
-        puts "IMC: #{@peso / (altura * altura)}"
+        puts "IMC: #{@peso / (@altura * @altura)}"
     end
 end

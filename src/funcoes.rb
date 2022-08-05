@@ -45,3 +45,8 @@ def dia_da_semana
   time.strftime("%a")
 end
 
+def pessoa
+  pessoa = Pessoa.new('Felipe', 'Silva', 18, 52, 1.72)
+  pessoa.nomeCompleto
+  pessoa.imc
+end
