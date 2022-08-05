@@ -1,4 +1,4 @@
-class Cachorro
+class Cachorro < Pessoa
     def initialize(nome, idade)
         @nome = nome
         @idade = idade

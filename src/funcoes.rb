@@ -60,6 +60,7 @@ end
 
 def cachorro
   cachorro = Cachorro.new('Rex', 5)
+  cachorro.nomeCompleto
   cachorro.late
 end
 
