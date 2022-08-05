@@ -99,6 +99,7 @@ puts array_com_valores_inteiros(array)
 # 3) tamanho do array
 puts array_tamanho(array)
 # 4) array 5 vezes maior (5 x array)
+puts array_cinco_vezes_maior(array)
 
 puts "\nExercício 8 - hash"
 # 8 - Exercício com Hash

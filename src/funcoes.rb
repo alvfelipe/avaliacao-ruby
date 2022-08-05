@@ -83,3 +83,7 @@ end
 def array_tamanho(array)
   puts "Tamanho do array: #{array.size}"
 end
+
+def array_cinco_vezes_maior(array)
+  puts "Array 5 vezes maior: #{(array * 5).join(" - ")}"
+end
