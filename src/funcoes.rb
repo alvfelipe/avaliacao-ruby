@@ -1,6 +1,8 @@
 require_relative 'pessoa.rb'
 require_relative 'cachorro.rb'
 
+@time = Time.now
+
 def funcao_pronta
   'Ok'
 end
@@ -15,7 +17,10 @@ end
 
 # EXERCÍCIO 2
 def longest_word(_str)
-  nil
+  simbolos = ["!", "@", "#", "$", "%", "&", "*", "(", ")"]
+  
+  _str.split().max_by(&:length)
+  
 end
 
 # EXERCÍCIO 3
@@ -36,19 +41,16 @@ end
 
 # EXERCÍCIO 5.1
 def data_atual_formatada1
-  time = Time.now
-  time.strftime("%Y-%m-%d %H:%M:%S")
+  puts "#{@time.strftime("%Y-%m-%d %H:%M:%S")}"
 end
 
 def data_atual_formatada2
-  time = Time.now
-  time.strftime("%d/%m/%Y")
+  puts "#{@time.strftime("%d/%m/%Y")}"
 end
 
 # EXERCÍCIO 5.2
 def dia_da_semana
-  time = Time.now
-  time.strftime("%a")
+  puts "#{@time.strftime("%a")}"
 end
 
 # EXERCÍCIO 6
