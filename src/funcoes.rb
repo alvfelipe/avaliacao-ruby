@@ -66,19 +66,20 @@ end
 # EXERCÍCIO 7.1
 def array_ordenado_decrescentemente(array)
   x = (array.sort).reverse
-  x.join(" - ")
+  puts "Ordenado decrescentemente #{x.join(" - ")}"
 end
 
 # EXERCÍCIO 7.2
 def array_com_valores_inteiros(array)
-  puts 'Valores inteiros: '
   x = array.map(&:to_i)
-  puts x.join(" - ")
+  puts "Valores inteiros: #{x.join(" - ")}"
 
-  puts 'Teste para ver se são inteiros: '
   y = x.map do |num|
     num * 2
   end
-  puts y.join(" - ")
+  puts "Teste para ver se são inteiros: #{y.join(" - ")}"
 end
 
+def array_tamanho(array)
+  puts "Tamanho do array: #{array.size}"
+end
